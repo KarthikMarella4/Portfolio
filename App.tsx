@@ -239,15 +239,16 @@ export default function Portfolio() {
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3"
           >
-            <Download className="w-6 h-6" />
-            <span>Download Resume</span>
+            <Download className="w-6 h-6 relative top-[1px]" /> 
+            <span className="tracking-wide font-semibold">
+              Download Resume
+            </span>
           </a>
         </Button>
       </div>
     </div>
   </FadeIn>
 </section>
-
 
 
 
