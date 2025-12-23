@@ -3,13 +3,13 @@ import { Project, Skill, Certification, Internship } from './types';
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "GLAUCOMA DETECTION USING DEEP LEARNING",
+    title: "VisionIQ -GLAUCOMA DETECTIONVisionIQ -GLAUCOMA DETECTION",
     role: "Deep Learning",
     year: "2024",
-    image: "https://images.pexels.com/photos/5766072/pexels-photo-5766072.jpeg", 
+    image: "https://images.pexels.com/photos/5766072/pexels-photo-5766072.jpeg",
     category: "Medical AI",
     description: "Automated diagnosis system utilizing Convolutional Neural Networks (CNNs) to detect glaucoma from retinal fundus images with high accuracy.",
-    link: "https://github.com/KarthikMarella4/GLAUCOMA-DETECTION-USING-DEEP-LEARNING"
+    link: "https://visioniq-vecn.onrender.com"
   },
   {
     id: 2,
@@ -31,39 +31,39 @@ export const SKILLS: Skill[] = [
 ];
 
 export const CERTIFICATIONS: Certification[] = [
-  { 
-    id: 1, 
-    title: "AWS Certified Cloud Practitioner", 
+  {
+    id: 1,
+    title: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
     link: "https://www.credly.com/badges/bf8bd8db-5458-4f9a-af79-75540bfa87d0/linked_in_profile"
   },
-  { 
-    id: 2, 
-    title: "Azure Administrator Associate", 
+  {
+    id: 2,
+    title: "Azure Administrator Associate",
     issuer: "Microsoft",
     link: "https://learn.microsoft.com/api/credentials/share/en-us/KarthikMarella-0665/65CA0E456D6F8D8E?sharingId=37A46769027B9626"
   },
-  { 
-    id: 3, 
-    title: "Azure AI Fundamentals", 
+  {
+    id: 3,
+    title: "Azure AI Fundamentals",
     issuer: "Microsoft",
     link: "https://www.credly.com/badges/35e360b4-ffdf-459c-941a-f4389d7f287e/linked_in_profile"
   },
-  { 
-    id: 4, 
-    title: "AI Certified Foundations Associate", 
+  {
+    id: 4,
+    title: "AI Certified Foundations Associate",
     issuer: "Oracle",
     link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=F0C2C09086512FDD784385B2D789BBF18DA614C37554D70D32A635DC4C5A8599"
   },
-  { 
-    id: 5, 
-    title: "GenAI Foundations", 
+  {
+    id: 5,
+    title: "GenAI Foundations",
     issuer: "DELL",
     link: "https://www.credly.com/badges/7c3903ee-9a40-4424-8e97-8d059d66c6a5/linked_in_profile"
   },
-  { 
-    id: 6, 
-    title: "Network Security Practitioner", 
+  {
+    id: 6,
+    title: "Network Security Practitioner",
     issuer: "The SecOps Group",
     link: "https://candidate.speedexam.net/certificate.aspx?SSTATE=am4131EniU8ntjp4bO5mXfyvzSq+l58L6lno0fcXj53woYEGqy9c5tQwvutnR8kaLohg0Qw0GwCFk2anMX+b2jxLfqlopiim5HLYruPv758="
   },
