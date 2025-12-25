@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "VisionIQ -GLAUCOMA DETECTION",
     role: "Deep Learning",
     year: "2024",
-    image: "/images/VisionIQ.png",
+    image: "images/VisionIQ.png",
     category: "Medical AI",
     description: "Automated diagnosis system utilizing Convolutional Neural Networks (CNNs) to detect glaucoma from retinal fundus images with high accuracy.",
     link: "https://visioniq-vecn.onrender.com"
@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     title: "EventSync",
     role: "Vibe Coding",
     year: "2025",
-    image: "/images/event-sync.png",
+    image: "images/event-sync.png",
     category: "Progressive Web App",
     description: "EventSync is a progressive web app (PWA) built to simplify how friends and families plan, manage, and experience events together. The platform allows users to effortlessly create and join events, coordinate details, and share memories through collaborative photo galleries in real time.",
     link: "https://eventssync.netlify.app/"
