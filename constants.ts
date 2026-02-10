@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     title: "EventSync",
     role: "Vibe Coding",
     year: "2025",
-    image: "images/event-sync.png",
+    image: "images/EventSync.png",
     category: "Progressive Web App",
     description: "EventSync is a progressive web app (PWA) built to simplify how friends and families plan, manage, and experience events together. The platform allows users to effortlessly create and join events, coordinate details, and share memories through collaborative photo galleries in real time.",
     link: "https://eventssync.netlify.app/"
@@ -85,15 +85,15 @@ export const INTERNSHIPS: Internship[] = [
   },
   {
     id: 2,
-    role: "Machine Learning Intern",
-    company: "SkillDzire",
-    period: "Feb 2024 - Apr 2024",
+    role: "Artificial Intelligence & Machine Learning Intern",
+    company: "EVOASTRA VENTURES",
+    period: "Oct 2025 - Jan 2026",
     description: [
-      "Build and track reproducible machine‑learning experiments with MLflow, capturing parameters, metrics, artifacts, and model versions.",
-      "Design, schedule, and monitor data‑ingestion and model‑training pipelines using Apache Airflow, with clear dependency management and automated retries.",
-      "Support data preprocessing and feature engineering in Python (NumPy, Pandas) and, when needed, scalable frameworks such as Spark or AWS Glue.",
-      "Package trained models in Docker containers and integrate them into CI/CD workflows for deployment on platforms like AWS SageMaker or Kubernetes.",
-      "Use Git with platforms such as GitHub and DagsHub to version code, datasets, and models, enabling collaborative reviews and transparent ML lifecycle management."
+      "Build and track reproducible Machine Learning and Generative AI experiments using MLflow, capturing parameters, metrics, artifacts, prompt versions, embeddings, and model checkpoints.",
+      "Design and orchestrate data, LLM fine-tuning, and model-training pipelines using Apache Airflow, ensuring dependency management, automated retries, and scalable workflow execution.",
+      "Perform data preprocessing, feature engineering, and embedding generation using Python (NumPy, Pandas) and scalable tools like Spark, AWS Glue, along with ChromaDB for vector storage and retrieval-augmented generation (RAG).",
+      "Develop LLM-powered and Agentic AI applications, integrating retrieval, memory, and tool-use to build intelligent, autonomous, and context-aware systems.",
+      "Containerize ML and GenAI models using Docker and deploy through CI/CD and MLOps pipelines on AWS SageMaker, Kubernetes, while using Git, GitHub, and DagsHub for versioning code, datasets, prompts, and models."
     ]
   }
 ];

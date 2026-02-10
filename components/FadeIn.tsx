@@ -20,9 +20,8 @@ export const FadeIn: React.FC<FadeInProps> = ({ children, delay = 0 }) => {
   return (
     <div
       ref={domRef}
-      className={`transition-all duration-1000 transform ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-      }`}
+      className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        }`}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}
