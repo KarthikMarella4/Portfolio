@@ -355,7 +355,7 @@ export default function Portfolio() {
                 <Send className="w-8 h-8 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-black uppercase mb-2">Get in Touch</h3>
-                  <a href="mailto:karthikmarella24@gmail.com" className="text-lg font-medium hover:text-orange-600 transition-colors">
+                  <a href="mailto:karthikmarella24@gmail.com" className="text-lg font-medium hover:text-orange-600 transition-colors break-all">
                     karthikmarella24@gmail.com
                   </a>
                 </div>
